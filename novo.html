@@ -1,0 +1,49 @@
+<!DoctypeHTML>
+
+<html lang="pt-br">
+<head>
+     <meta charset="utf-8">
+
+	 <title>Área de Testes - Javascript</title>
+	 
+	 <meta name="description" content="Área de Testes - Javascript">
+	 <meta name="author" content="Marcos Rocha">
+	 
+	 <link rel="stylesheet" href="style2.css">
+</head>	 
+
+<body>
+<script src="script3.js">
+</script>
+<section id="formulario">
+<header>
+<h1> Cadastro </h1>
+</header>
+<form name="formulario" method="post" action="">
+         
+        <fieldset id="fieldset">
+          <legend id="titulo"><b>CEP</b></legend>
+          <input type="text" id="cep" maxlength="9"
+		  onchange="validacep(document.getElementById('cep'))"
+		  onkeypress="validacep(document.getElementById('cep'))">
+		  <input type="button" class="button" value="Validar CEP" onclick="validacep(document.getElementById('cep'))">
+		  <div id="alerta">CEP incorreto! <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/223/disappointed-face_1f61e.png" id="image"></div>
+         </fieldset>
+		 
+		 <fieldset id="fieldset">
+          <legend id="titulo"><b>Data</b></legend>
+		 <input type="date" id="date1" maxlength="8">
+		  <input type="button" class="button" value="Data" onclick="calculadata()">
+		   <label>Sou maior de 18 anos</label>
+            <label><input type="radio" name="maior18" value="radio" id="maiode18">Sim</label>
+            <label><input type="radio" name="menor18" value="radio" id="menorde18">Não </label>
+             <br>
+              </fieldset>
+	      <div id="resultado"></div>
+           
+        </fieldset>
+
+</section>
+	 
+</body>
+</html>

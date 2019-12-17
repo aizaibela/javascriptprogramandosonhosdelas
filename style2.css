@@ -1,0 +1,76 @@
+ header h1 {
+	color:#1a6600;
+	margin-left: 125px;
+	font: sans-serif;
+}
+ 
+ body {
+	 font-family: Arial, Verdana, sans-serif;
+	 background-color: #fff1e0;
+ }
+ .button {
+  background-color: #ccffb3; 
+  color: black;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  border: solid #339900;
+  
+ }
+   .caixa {
+  background-color:green
+  border: solid green;
+  color: white;
+  padding: 2em;
+  size: 16em
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100px;
+  height: 50px
+ 
+}
+.erro {
+	border: 2px solid red;
+}
+.sucesso {
+	border: 2px solid #2db300;
+}
+#alerta {
+	font-size: 60%;
+	color: red;
+	padding: 100px 0;
+	font-style: italic;
+	font-weight: bold;
+	display: none;
+}
+    .errostyle {
+    font-size: 80%;
+	color: red;
+}
+#entrada {
+	border: solid red
+	
+	
+}
+#titulo {
+	color: green;
+}
+#fieldset {
+	border:solid 4px #2db300;
+	margin-bottom: 15px;
+    width: 500px;
+    height: 40px
+	}
+.sucess {
+		color: green;
+		font-size: auto;
+}
+#image{
+	
+	size: 5px;
+}

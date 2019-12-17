@@ -1,0 +1,35 @@
+<!DoctypeHTML>
+
+<html lang="pt-br">
+<head>
+     <meta charset="utf-8">
+	 
+	 
+	 <title>Área de Testes - Javascript</title>
+	 
+	 <meta name="description" content="Área de Testes - Javascript">
+	 <meta name="author" content="Marcos Rocha"
+	 
+	 <link rel="stylesheet" href="estilo.css">
+	 
+	 
+</head>	 
+
+<body>
+     <script src="script.js"></script>
+	 <script>
+	 var alunas = new Array("Isabella", "Fabiana", "Cristina");
+	 alunas[3] = "Roberta";
+	 alunas[alunas.length] = "Izabela";
+	 alunas.push("Natália","Daniela");
+	 alunas.sort();
+	 for(x=0; x<alunas.length; x++) {
+	 document.write("<p>"+ alunas[x]+"</p>");
+	
+	 }
+	 </script>
+	 <input type="button" value="Hello?" onclick="alert('Hello!');">
+
+
+</body>
+</html>

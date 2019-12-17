@@ -1,0 +1,35 @@
+<!DoctypeHTML>
+
+<html lang="pt-br">
+<head>
+     <meta charset="utf-8">
+
+	 <title>Área de Testes - Javascript</title>
+	 
+	 <meta name="description" content="Área de Testes - Javascript">
+	 <meta name="author" content="Marcos Rocha">
+	 
+	 <link rel="stylesheet" href="style1.css">
+</head>	 
+
+<body>
+<section id="formulario">
+<header>
+<h1> Cadastro </h1>
+</header>
+<form name="validaremail" method="post" action="">
+         
+        <fieldset id="fieldset">
+          <legend id="titulo"><b>Entrada</b></legend>
+          <input type="text" id="entrada" maxlength="30" required="required">
+		  <input type="button" class="button" value="Validar" onclick="validaemail(document.getElementById('entrada').value)">
+		  <input type="button" class="button" value="Limpar"onclick="limpamensagens(document.getElementById('entrada').value)">
+     <script src="script2.js">
+	 </script>
+           
+        </fieldset>
+
+</section>
+	 
+</body>
+</html>
